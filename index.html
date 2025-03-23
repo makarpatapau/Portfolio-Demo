@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html"><h1 id="logo">Makar Patapau</h1></a>
+        <nav>
+          <ul id="links">
+            <li><a href="GALLERY.html">Gallery</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#infoAbout">About</a></li>
+            <li><a href="#contactForm">Contact me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="bg">
+          <div class="textOnBlur">
+            <h2>Frogs of the rainforests</h2>
+            <h3 id="blinking">
+              There is a <span>great</span> variety of <span>frogs</span> in the
+              rainforests around the world.
+            </h3>
+            <button class="blurBtn">See more</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2 class="projectH">Projects</h2>
+
+        <div class="projectContainer">
+          <div class="projectCard">
+            <img src="img7.webp" alt="" />
+            <h3>Lorem ipsum dolor sit</h3>
+            <a href="#infoAbout" class="seeMore">See more</a>
+          </div>
+
+          <div class="projectCard">
+            <img src="img5.jpg" alt="" />
+            <h3>Lorem ipsum dolor sit</h3>
+            <a href="#infoAbout" class="seeMore">See more</a>
+          </div>
+
+          <div class="projectCard">
+            <img src="img9.jpg" alt="" />
+            <h3>Lorem ipsum dolor sit</h3>
+            <a href="#infoAbout" class="seeMore">See more</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="infoAbout">
+        <h2>About Me</h2>
+
+        <div class="infoAbout">
+          <p>
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Ornare
+            suspendisse pretium platea sollicitudin praesent class libero.
+            Facilisi rhoncus potenti porta massa efficitur mus dui viverra
+            scelerisque. Varius dictum vivamus primis at dolor vivamus vulputate
+            turpis. Imperdiet interdum primis mollis ac donec turpis nam. Ipsum
+            commodo convallis lectus conubia curabitur. Neque molestie
+            habitantest amet habitasse et ut semper. Dui pellentesque phasellu
+            ondimentum justo nisi himenaeos fringilla. Pharetra feugiat suscipit
+            eros proin ornare tempus. Primis ad lacinia dapibus curabitur
+            risusnisi primis ultricies.
+          </p>
+
+          <img src="img2.jpg" alt="" />
+        </div>
+      </section>
+
+      <section id="contactForm">
+        <h2>Contact me</h2>
+
+        <form class="form">
+          <div class="formName">
+            <label for="name">Your name</label>
+            <input type="text" id="name" placeholder="Enter your name" />
+          </div>
+          <div class="formEmail">
+            <label for="email">Your email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+          </div>
+          <div class="formMessage">
+            <label for="message">Your message</label>
+            <textarea
+              id="message"
+              placeholder="Your message"
+              rows="6"
+            ></textarea>
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer id="contact">
+      <div class="footer">
+        <a href="index.html"><h1 id="logo">Makar Patapau</h1></a>
+        <nav>
+          <ul id="links">
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#infoAbout">About</a></li>
+            <li><a href="#contactMe">Contant me</a></li>
+          </ul>
+        </nav>
+        <button class="btn">Return to the top</button>
+      </div>
+    </footer>
+    <div class="overlay hidden">
+      <div class="modal">
+        <h2>My name is Jeff!</h2>
+        <img src="img3.jpg" alt="" />
+        <button class="closebtn">CLOSE</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
